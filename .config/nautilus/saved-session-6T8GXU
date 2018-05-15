@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<session>
+  <history>
+    <bookmark name="src" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/Desktop/codigo/havi_gui/src" has_custom_name="TRUE"/>
+    <bookmark name="havi_gui" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/Desktop/codigo/havi_gui" has_custom_name="TRUE"/>
+    <bookmark name="codigo" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/Desktop/codigo" has_custom_name="TRUE"/>
+    <bookmark name="controleRemoto" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/Desktop/codigo/controleRemoto" has_custom_name="TRUE"/>
+    <bookmark name="src" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/Desktop/codigo/controleRemoto/src" has_custom_name="TRUE"/>
+    <bookmark name="br" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/Desktop/codigo/controleRemoto/src/br" has_custom_name="TRUE"/>
+    <bookmark name="com" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/Desktop/codigo/controleRemoto/src/br/com" has_custom_name="TRUE"/>
+    <bookmark name="xletview-0.3.6" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/Desktop/caelum/61/xletview-0.3.6" has_custom_name="TRUE"/>
+    <bookmark name="61" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/Desktop/caelum/61" has_custom_name="TRUE"/>
+    <bookmark name="caelum" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/Desktop/caelum" has_custom_name="TRUE"/>
+    <bookmark name="Desktop" icon="user-desktop" uri="file:///home/tv873/Desktop" has_custom_name="TRUE"/>
+    <bookmark name="botaoProjeto" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/workspace/botaoProjeto" has_custom_name="TRUE"/>
+    <bookmark name="workspace" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/workspace" has_custom_name="TRUE"/>
+    <bookmark name="tv873" icon="user-home" uri="file:///home/tv873" has_custom_name="TRUE"/>
+    <bookmark name="lib" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///home/tv873/Desktop/codigo/controleRemoto/lib" has_custom_name="TRUE"/>
+    <bookmark name="meuPrimeiroXlet" icon="folder" uri="sftp://root@172.16.223.129/misc/xlets/codigo/meuPrimeiroXlet" has_custom_name="TRUE"/>
+    <bookmark name="codigo" icon="folder" uri="sftp://root@172.16.223.129/misc/xlets/codigo" has_custom_name="TRUE"/>
+    <bookmark name="xlets" icon="folder" uri="sftp://root@172.16.223.129/misc/xlets" has_custom_name="TRUE"/>
+    <bookmark name="cdrom" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///media/KINGSTON/cdrom" has_custom_name="TRUE"/>
+    <bookmark name="codigo" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///media/KINGSTON/cdrom/codigo" has_custom_name="TRUE"/>
+    <bookmark name="KINGSTON" icon="inode-directory:gnome-mime-inode-directory:inode-x-generic:folder" uri="file:///media/KINGSTON" has_custom_name="TRUE"/>
+  </history>
+</session>

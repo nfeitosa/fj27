@@ -1,0 +1,7 @@
+<jdesktop>
+    <application aid='3213' oid='1' type='1' flag='1'>
+		<classpath>/misc/xlets/gingaj01/controleRemoto/bin</classpath>
+		<basedirectory>/misc/xlets/gingaj01/controleRemoto/bin</basedirectory>
+      <mainclass>br.com.overmedianetworks.treinamentos.gingajava.exemplos.modulo01.controleRemoto.ControleXlet</mainclass>
+    </application>
+</jdesktop>

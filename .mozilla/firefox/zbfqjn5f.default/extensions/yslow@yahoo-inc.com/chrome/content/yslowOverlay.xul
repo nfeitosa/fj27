@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!--
+ * ***** BEGIN LICENSE BLOCK *****
+ *
+ * Version: MPL 1.1
+ *
+ * The contents of this file are subject to the Mozilla Public License Version
+ * 1.1 (the "License"); you may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Original Code is: YSlow 2
+ *
+ * The Initial Developer of the Original Code is Yahoo! Inc.
+ *
+ * Copyright (C) 2010, Yahoo! Inc. All Rights Reserved.
+ *
+ * Contributor(s):
+ *     Antonia Kwok
+ *
+ * ***** END LICENSE BLOCK *****
+-->
+<?xml-stylesheet href="chrome://yslow/skin/yslow.css" type="text/css"?>
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+     <commandset id="mainCommandSet">
+         <command id="cmd_yslow_run" oncommand="YSLOW.firefox.run(false)"/>
+         <command id="cmd_yslow_close" oncommand="YSLOW.firefox.close()"/>
+     </commandset>
+
+     <vbox id="yslow-view" persist="height" flex="1">
+          <toolbox>
+              <toolbar id="yslow-TopBar" align="center" flex="0">
+                  <toolbarbutton id="yslow-TopBarButton-Peel" 
+                  label="Run YSlow" tooltiptext="Run Slow"
+                  command="cmd_yslow_run"/>
+                  <toolbarbutton id="yslow-TopBarButton-Close"
+                  label="Close" tooltiptext="Close"
+                  command="cmd_yslow_close" />
+              </toolbar>
+          </toolbox>
+
+          <hbox flex="1" style="overflow: auto;">
+            <browser id="yslow-Output" class="textbox_browser"
+            type="chrome" flex="1" wrap="false" multiline="true"/>
+          </hbox>
+     </vbox>
+
+</overlay>

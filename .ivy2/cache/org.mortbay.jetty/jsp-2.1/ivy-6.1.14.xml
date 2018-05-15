@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="org.mortbay.jetty"
+		module="jsp-2.1"
+		revision="6.1.14"
+		status="release"
+		publication="20081113225031"
+	>
+		<license name="CDDL 1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html" />
+		<description homepage="">
+		JSP2.1 Jasper implementation from Glassfish
+		</description>
+		<m:properties__slf4j-version>1.3.1</m:properties__slf4j-version>
+		<m:properties__junit-version>3.8.2</m:properties__junit-version>
+		<m:properties__jta-spec-version>1.0.1B-rc4</m:properties__jta-spec-version>
+		<m:dependency.management__geronimo-spec__geronimo-spec-jta__version>1.0.1B-rc4</m:dependency.management__geronimo-spec__geronimo-spec-jta__version>
+		<m:dependency.management__org.slf4j__jcl104-over-slf4j__version>1.3.1</m:dependency.management__org.slf4j__jcl104-over-slf4j__version>
+		<m:dependency.management__org.apache.maven__maven-plugin-tools-api__version>2.0</m:dependency.management__org.apache.maven__maven-plugin-tools-api__version>
+		<m:dependency.management__javax.activation__activation__version>1.1</m:dependency.management__javax.activation__activation__version>
+		<m:properties__maven-jar-plugin-version>2.2</m:properties__maven-jar-plugin-version>
+		<m:dependency.management__org.slf4j__slf4j-simple__version>1.3.1</m:dependency.management__org.slf4j__slf4j-simple__version>
+		<m:properties__glassfish.version.tag>SJSAS-9_1_1-B51-18_Sept_2008</m:properties__glassfish.version.tag>
+		<m:properties__maven-wagon-version>1.0-beta-2</m:properties__maven-wagon-version>
+		<m:dependency.management__ant__ant__version>1.6.5</m:dependency.management__ant__ant__version>
+		<m:properties__mail-version>1.4</m:properties__mail-version>
+		<m:properties__ant-version>1.6.5</m:properties__ant-version>
+		<m:dependency.management__junit__junit__version>3.8.2</m:dependency.management__junit__junit__version>
+		<m:properties__maven-bundle-plugin-version>1.4.0</m:properties__maven-bundle-plugin-version>
+		<m:properties__activation-version>1.1</m:properties__activation-version>
+		<m:dependency.management__javax.mail__mail__version>1.4</m:dependency.management__javax.mail__mail__version>
+		<m:properties__eclipse-compiler-version>3.1.1</m:properties__eclipse-compiler-version>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0-alpha-3|org.apache.maven.plugins__maven-release-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__1.0-alpha-3|org.apache.maven.plugins__maven-release-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|null__maven-compiler-plugin__null|null__maven-release-plugin__null|org.apache.maven.plugins__maven-jar-plugin__2.1|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__1.0-alpha-3|org.apache.maven.plugins__maven-release-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__1.0-alpha-3|org.apache.maven.plugins__maven-release-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null|null__maven-compiler-plugin__null|null__maven-release-plugin__null|org.apache.maven.plugins__maven-jar-plugin__2.1|org.apache.maven.plugins__maven-source-plugin__null|null__maven-compiler-plugin__null|null__maven-antrun-plugin__null|org.codehaus.mojo__dependency-maven-plugin__null|org.apache.felix__maven-bundle-plugin__1.4.0|org.apache.maven.plugins__maven-jar-plugin__null</m:maven.plugins>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="jsp-2.1" type="jar" ext="jar" conf="master"/>
+		<artifact name="jsp-2.1" type="source" ext="jar" conf="sources" m:classifier="sources"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.eclipse.jdt" name="core" rev="3.1.1" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.mortbay.jetty" name="jetty-util" rev="6.1.14" force="true" conf="provided->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="org.mortbay.jetty" name="jsp-api-2.1" rev="6.1.14" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.mortbay.jetty" name="servlet-api-2.5" rev="6.1.14" force="true" conf="provided->compile(*),provided(*),runtime(*),master(*)"/>
+		<dependency org="ant" name="ant" rev="1.6.5" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<override org="geronimo-spec" module="geronimo-spec-jta" matcher="exact" rev="1.0.1B-rc4"/>
+		<override org="org.slf4j" module="jcl104-over-slf4j" matcher="exact" rev="1.3.1"/>
+		<override org="org.apache.maven" module="maven-plugin-tools-api" matcher="exact" rev="2.0"/>
+		<override org="javax.activation" module="activation" matcher="exact" rev="1.1"/>
+		<override org="org.slf4j" module="slf4j-simple" matcher="exact" rev="1.3.1"/>
+		<override org="ant" module="ant" matcher="exact" rev="1.6.5"/>
+		<override org="junit" module="junit" matcher="exact" rev="3.8.2"/>
+		<override org="javax.mail" module="mail" matcher="exact" rev="1.4"/>
+	</dependencies>
+</ivy-module>

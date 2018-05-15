@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="agiletickets"
+		module="agiletickets"
+		revision="working@caelum57-02"
+		conf="provided"
+		confs="default, test, jetty, provided"
+		date="20101206155754"/>
+	<dependencies>
+		<module organisation="javax.servlet.jsp" name="jsp-api">
+			<revision name="2.1" status="release" pubdate="20060717080956" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="2">
+				<metadata-artifact status="successful" details="" size="157" time="1443" location="/home/caelum/.ivy2/cache/javax.servlet.jsp/jsp-api/ivy-2.1.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/javax.servlet.jsp/jsp-api/ivy-2.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.pom"/>
+				<caller organisation="agiletickets" name="agiletickets" conf="provided" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="working@caelum57-02"/>
+				<artifacts>
+					<artifact name="jsp-api" type="jar" ext="jar" status="successful" details="" size="100636" time="10920" location="/home/caelum/.ivy2/cache/javax.servlet.jsp/jsp-api/jars/jsp-api-2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="servlet-api">
+			<revision name="2.5" status="release" pubdate="20060717080957" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="1">
+				<metadata-artifact status="successful" details="" size="157" time="1227" location="/home/caelum/.ivy2/cache/javax.servlet/servlet-api/ivy-2.5.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/javax.servlet/servlet-api/ivy-2.5.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom"/>
+				<caller organisation="agiletickets" name="agiletickets" conf="provided" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="working@caelum57-02"/>
+				<artifacts>
+					<artifact name="servlet-api" type="jar" ext="jar" status="successful" details="" size="105112" time="3016" location="/home/caelum/.ivy2/cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="5.1.13" status="release" pubdate="20100623123838" resolver="public" artresolver="main" homepage="http://dev.mysql.com/usingmysql/java/" downloaded="true" searched="true" default="false" conf="system, default, optional, compile, provided, runtime, javadoc, sources, master" position="0">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/gpl.txt"/>
+				<metadata-artifact status="successful" details="" size="1263" time="1225" location="/home/caelum/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.13.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.13.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.13/mysql-connector-java-5.1.13.pom"/>
+				<caller organisation="agiletickets" name="agiletickets" conf="provided" rev="5.1.13" rev-constraint-default="5.1.13" rev-constraint-dynamic="5.1.13" callerrev="working@caelum57-02"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="successful" details="" size="767492" time="24239" location="/home/caelum/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.13.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.13/mysql-connector-java-5.1.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

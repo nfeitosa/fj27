@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Ubuntu</name>
+    <filename>/usr/share/backgrounds/warty-final-ubuntu.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#68684b4b3333</pcolor>
+    <scolor>#68684b4b3333</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>No Wallpaper</name>
+    <filename>(none)</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#68684b4b3333</pcolor>
+    <scolor>#68684b4b3333</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>papel_d_parede_4_p_note.jpg</name>
+    <filename>/home/tv873/Desktop/papel_d_parede_4_p_note.jpg</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#68684b4b3333</pcolor>
+    <scolor>#68684b4b3333</scolor>
+  </wallpaper>
+</wallpapers>

@@ -1,0 +1,2 @@
+
+(indicator-keyboard-service:25700): IBUS-CRITICAL **: ibus_bus_call_sync: assertion 'ibus_bus_is_connected (bus)' failed

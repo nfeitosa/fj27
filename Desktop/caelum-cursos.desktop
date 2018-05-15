@@ -1,0 +1,20 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Atalho para arquivos dos cursos
+Exec=nautilus /caelum/cursos/
+Icon=iconcaelum.png
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=GNOME;GTK;Core;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=nautilus
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=3.0.0
+X-Ubuntu-Gettext-Domain=nautilus
+Actions=Window;
+
+[Desktop Action Window]
+Name=Open a New Window
+Exec=nautilus
+

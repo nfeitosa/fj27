@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="agiletickets"
+		module="agiletickets"
+		revision="working@caelum57-02"
+		conf="jetty"
+		confs="default, test, jetty, provided"
+		date="20101206155754"/>
+	<dependencies>
+		<module organisation="org.mortbay.jetty" name="jetty-ant">
+			<revision name="6.1.14" status="release" pubdate="20081113225608" resolver="public" artresolver="main" homepage="http://jetty.mortbay.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="6">
+				<license name="Apache License Version 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1787" time="1835" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-ant/ivy-6.1.14.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-ant/ivy-6.1.14.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-ant/6.1.14/jetty-ant-6.1.14.pom"/>
+				<caller organisation="agiletickets" name="agiletickets" conf="jetty" rev="6.1.14" rev-constraint-default="6.1.14" rev-constraint-dynamic="6.1.14" callerrev="working@caelum57-02"/>
+				<artifacts>
+					<artifact name="jetty-ant" type="jar" ext="jar" status="successful" details="" size="22888" time="1394" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-ant/jars/jetty-ant-6.1.14.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-ant/6.1.14/jetty-ant-6.1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty-plus">
+			<revision name="6.1.14" status="release" pubdate="20081113225135" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
+				<metadata-artifact status="successful" details="" size="4274" time="1266" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-plus/ivy-6.1.14.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-plus/ivy-6.1.14.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-plus/6.1.14/jetty-plus-6.1.14.pom"/>
+				<caller organisation="org.mortbay.jetty" name="jetty-ant" conf="default, compile, runtime, master" rev="6.1.14" rev-constraint-default="6.1.14" rev-constraint-dynamic="6.1.14" callerrev="6.1.14"/>
+				<artifacts>
+					<artifact name="jetty-plus" type="jar" ext="jar" status="successful" details="" size="65006" time="3137" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-plus/jars/jetty-plus-6.1.14.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-plus/6.1.14/jetty-plus-6.1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty-naming">
+			<revision name="6.1.14" status="release" pubdate="20081113225123" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="11">
+				<metadata-artifact status="successful" details="" size="5300" time="2558" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-naming/ivy-6.1.14.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-naming/ivy-6.1.14.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-naming/6.1.14/jetty-naming-6.1.14.pom"/>
+				<caller organisation="org.mortbay.jetty" name="jetty-ant" conf="default, compile, runtime, master" rev="6.1.14" rev-constraint-default="6.1.14" rev-constraint-dynamic="6.1.14" callerrev="6.1.14"/>
+				<artifacts>
+					<artifact name="jetty-naming" type="jar" ext="jar" status="successful" details="" size="28426" time="2700" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-naming/jars/jetty-naming-6.1.14.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-naming/6.1.14/jetty-naming-6.1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.mail" name="mail">
+			<revision name="1.4" status="release" pubdate="20060502205606" resolver="public" artresolver="main" homepage="https://glassfish.dev.java.net/javaee5/mail/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="12">
+				<license name="Common Development and Distribution License (CDDL) v1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="successful" details="" size="993" time="1840" location="/home/caelum/.ivy2/cache/javax.mail/mail/ivy-1.4.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/javax.mail/mail/ivy-1.4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/javax/mail/mail/1.4/mail-1.4.pom"/>
+				<caller organisation="org.mortbay.jetty" name="jetty-naming" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="6.1.14"/>
+				<artifacts>
+					<artifact name="mail" type="jar" ext="jar" status="successful" details="" size="388864" time="13842" location="/home/caelum/.ivy2/cache/javax.mail/mail/jars/mail-1.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/javax/mail/mail/1.4/mail-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="geronimo-spec" name="geronimo-spec-jta">
+			<revision name="1.0.1B-rc4" status="release" pubdate="20051108200331" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="10">
+				<metadata-artifact status="successful" details="" size="169" time="1661" location="/home/caelum/.ivy2/cache/geronimo-spec/geronimo-spec-jta/ivy-1.0.1B-rc4.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/geronimo-spec/geronimo-spec-jta/ivy-1.0.1B-rc4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/geronimo-spec/geronimo-spec-jta/1.0.1B-rc4/geronimo-spec-jta-1.0.1B-rc4.pom"/>
+				<caller organisation="org.mortbay.jetty" name="jetty-plus" conf="compile, runtime" rev="1.0.1B-rc4" rev-constraint-default="1.0.1B-rc4" rev-constraint-dynamic="1.0.1B-rc4" callerrev="6.1.14"/>
+				<artifacts>
+					<artifact name="geronimo-spec-jta" type="jar" ext="jar" status="successful" details="" size="13468" time="1828" location="/home/caelum/.ivy2/cache/geronimo-spec/geronimo-spec-jta/jars/geronimo-spec-jta-1.0.1B-rc4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/geronimo-spec/geronimo-spec-jta/1.0.1B-rc4/geronimo-spec-jta-1.0.1B-rc4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty">
+			<revision name="6.1.14" status="release" pubdate="20081113224945" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
+				<metadata-artifact status="successful" details="" size="4345" time="1709" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty/ivy-6.1.14.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty/ivy-6.1.14.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.14/jetty-6.1.14.pom"/>
+				<caller organisation="org.mortbay.jetty" name="jetty-ant" conf="default, compile, runtime, master" rev="6.1.14" rev-constraint-default="6.1.14" rev-constraint-dynamic="6.1.14" callerrev="6.1.14"/>
+				<artifacts>
+					<artifact name="jetty" type="jar" ext="jar" status="successful" details="" size="516429" time="41577" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty/jars/jetty-6.1.14.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.14/jetty-6.1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jsp-2.1">
+			<revision name="6.1.14" status="release" pubdate="20081113225031" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="3">
+				<license name="CDDL 1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="successful" details="" size="6248" time="2740" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jsp-2.1/ivy-6.1.14.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jsp-2.1/ivy-6.1.14.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.pom"/>
+				<caller organisation="agiletickets" name="agiletickets" conf="jetty" rev="6.1.14" rev-constraint-default="6.1.14" rev-constraint-dynamic="6.1.14" callerrev="working@caelum57-02"/>
+				<artifacts>
+					<artifact name="jsp-2.1" type="jar" ext="jar" status="successful" details="" size="1024680" time="25022" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jsp-2.1/jars/jsp-2.1-6.1.14.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ant" name="ant">
+			<revision name="1.6.5" status="release" pubdate="20101015094825" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
+				<metadata-artifact status="successful" details="" size="861" time="1904" location="/home/caelum/.ivy2/cache/ant/ant/ivy-1.6.5.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/ant/ant/ivy-1.6.5.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/ant/ant/1.6.5/ant-1.6.5.pom"/>
+				<caller organisation="org.mortbay.jetty" name="jetty-ant" conf="default, compile, runtime, master" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="6.1.14"/>
+				<caller organisation="org.mortbay.jetty" name="jsp-2.1" conf="default, compile, runtime, master" rev="1.6.5" rev-constraint-default="1.6.5" rev-constraint-dynamic="1.6.5" callerrev="6.1.14"/>
+				<artifacts>
+					<artifact name="ant" type="jar" ext="jar" status="successful" details="" size="1034049" time="27933" location="/home/caelum/.ivy2/cache/ant/ant/jars/ant-1.6.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/ant/ant/1.6.5/ant-1.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty-util">
+			<revision name="6.1.14" status="release" pubdate="20081113224919" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="8">
+				<metadata-artifact status="successful" details="" size="3545" time="1434" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-util/ivy-6.1.14.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-util/ivy-6.1.14.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.14/jetty-util-6.1.14.pom"/>
+				<caller organisation="org.mortbay.jetty" name="jetty" conf="compile, runtime" rev="6.1.14" rev-constraint-default="6.1.14" rev-constraint-dynamic="6.1.14" callerrev="6.1.14"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="successful" details="" size="163121" time="10455" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jetty-util/jars/jetty-util-6.1.14.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.14/jetty-util-6.1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jdt" name="core">
+			<revision name="3.1.1" status="release" pubdate="20060831143226" resolver="public" artresolver="main" homepage="http://www.eclipse.org/jdt/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="successful" details="" size="677" time="1348" location="/home/caelum/.ivy2/cache/org.eclipse.jdt/core/ivy-3.1.1.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/org.eclipse.jdt/core/ivy-3.1.1.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jdt/core/3.1.1/core-3.1.1.pom"/>
+				<caller organisation="org.mortbay.jetty" name="jsp-2.1" conf="default, compile, runtime, master" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="6.1.14"/>
+				<artifacts>
+					<artifact name="core" type="jar" ext="jar" status="successful" details="" size="3566844" time="65422" location="/home/caelum/.ivy2/cache/org.eclipse.jdt/core/jars/core-3.1.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jdt/core/3.1.1/core-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jsp-api-2.1">
+			<revision name="6.1.14" status="release" pubdate="20081113225002" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, master(*), compile(*), runtime, runtime(*), master" position="1">
+				<metadata-artifact status="successful" details="" size="4271" time="1612" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jsp-api-2.1/ivy-6.1.14.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jsp-api-2.1/ivy-6.1.14.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.pom"/>
+				<caller organisation="agiletickets" name="agiletickets" conf="jetty" rev="6.1.14" rev-constraint-default="6.1.14" rev-constraint-dynamic="6.1.14" callerrev="working@caelum57-02"/>
+				<caller organisation="org.mortbay.jetty" name="jsp-2.1" conf="default, compile, runtime, master" rev="6.1.14" rev-constraint-default="6.1.14" rev-constraint-dynamic="6.1.14" callerrev="6.1.14"/>
+				<artifacts>
+					<artifact name="jsp-api-2.1" type="jar" ext="jar" status="successful" details="" size="134910" time="3787" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/jsp-api-2.1/jars/jsp-api-2.1-6.1.14.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="servlet-api-2.5">
+			<revision name="6.1.14" status="release" pubdate="20081113224905" resolver="public" artresolver="main" homepage="" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
+				<license name="CDDL 1.0" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+				<metadata-artifact status="successful" details="" size="3382" time="1453" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/servlet-api-2.5/ivy-6.1.14.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/org.mortbay.jetty/servlet-api-2.5/ivy-6.1.14.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.pom"/>
+				<caller organisation="org.mortbay.jetty" name="jsp-api-2.1" conf="default, compile, runtime, master" rev="6.1.14" rev-constraint-default="6.1.14" rev-constraint-dynamic="6.1.14" callerrev="6.1.14"/>
+				<caller organisation="org.mortbay.jetty" name="jetty" conf="compile, runtime" rev="6.1.14" rev-constraint-default="6.1.14" rev-constraint-dynamic="6.1.14" callerrev="6.1.14"/>
+				<artifacts>
+					<artifact name="servlet-api-2.5" type="jar" ext="jar" status="successful" details="" size="132368" time="9870" location="/home/caelum/.ivy2/cache/org.mortbay.jetty/servlet-api-2.5/jars/servlet-api-2.5-6.1.14.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="5.1.13" status="release" pubdate="20100623123838" resolver="public" artresolver="main" homepage="http://dev.mysql.com/usingmysql/java/" downloaded="true" searched="true" default="false" conf="system, default, optional, compile, provided, runtime, javadoc, sources, master" position="0">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/gpl.txt"/>
+				<metadata-artifact status="successful" details="" size="1263" time="1225" location="/home/caelum/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.13.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.13.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.13/mysql-connector-java-5.1.13.pom"/>
+				<caller organisation="agiletickets" name="agiletickets" conf="jetty" rev="5.1.13" rev-constraint-default="5.1.13" rev-constraint-dynamic="5.1.13" callerrev="working@caelum57-02"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="successful" details="" size="767492" time="24239" location="/home/caelum/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.13.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.13/mysql-connector-java-5.1.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

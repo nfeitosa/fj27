@@ -1,0 +1,5 @@
+openConnection: connect: No such file or directory
+cannot connect to brltty at :0
+upstart: indicator-application main process ended, respawning
+upstart: indicator-application main process ended, respawning
+upstart: indicator-application respawning too fast, stopped

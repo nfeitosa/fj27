@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="/home/tv873/Desktop/caelum/61/OpenGinga_RC1_20080924/OpenGinga_RC1.vmx" added="2009-07-19T17:46:24Z" modified="2009-07-19T17:46:24Z" visited="2009-07-19T17:46:24Z">
+    <title>OpenGinga_RC1</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-vmware-vm"/>
+        <bookmark:applications>
+          <bookmark:application name="VMware Player" exec="&apos;vmplayer %u&apos;" modified="2009-07-19T17:46:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="sftp://root@172.16.223.129/misc/xlets/codigo/meuPrimeiroXlet/config.xml" added="2009-07-19T19:00:04Z" modified="2009-07-19T19:00:24Z" visited="2009-07-19T19:00:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/xml"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="&apos;gedit&apos;" modified="2009-07-19T19:00:04Z" count="1"/>
+          <bookmark:application name="Text Editor" exec="&apos;gedit %u&apos;" modified="2009-07-19T19:00:24Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tv873/Desktop/caelum/61/xletview-0.3.6/xletview.jar" added="2009-07-19T19:50:54Z" modified="2009-07-19T19:50:55Z" visited="2009-07-19T19:50:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-java-archive"/>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="&apos;file-roller&apos;" modified="2009-07-19T19:50:54Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2009-07-19T19:50:55Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tv873/Desktop/codigo/havi_gui/src/SimpleHaviGui1.java" added="2009-07-19T19:56:28Z" modified="2009-07-19T19:56:29Z" visited="2009-07-19T19:56:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-java"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="&apos;gedit&apos;" modified="2009-07-19T19:56:28Z" count="1"/>
+          <bookmark:application name="Text Editor" exec="&apos;gedit %u&apos;" modified="2009-07-19T19:56:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tv873/Desktop/codigo/havi_gui/src/SimpleHaviGui2.java" added="2009-07-19T20:13:30Z" modified="2009-07-19T20:13:31Z" visited="2009-07-19T20:13:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-java"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="File Manager" exec="&apos;gedit&apos;" modified="2009-07-19T20:13:30Z" count="1"/>
+          <bookmark:application name="Text Editor" exec="&apos;gedit %u&apos;" modified="2009-07-19T20:13:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

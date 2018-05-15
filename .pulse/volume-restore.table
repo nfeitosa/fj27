@@ -1,0 +1,12 @@
+pulsecore/protocol-native.c$ALSA plug-in [firefox-bin]
+1 65536
+alsa_output.pci_8086_293e_sound_card_0_alsa_playback_0
+
+pulsecore/protocol-native.c$ALSA plug-in [canberra-gtk-play]
+2 65536 65536
+alsa_output.pci_8086_293e_sound_card_0_alsa_playback_0
+
+pulsecore/protocol-native.c$ALSA plug-in [vlc]
+2 65536 65536
+alsa_output.pci_8086_284b_sound_card_0_alsa_playback_0
+

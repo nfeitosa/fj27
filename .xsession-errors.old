@@ -1,0 +1,55 @@
+/etc/gdm/Xsession: Beginning session setup...
+Setting IM through im-switch for locale=en_US.
+Start IM through /etc/X11/xinit/xinput.d/all_ALL linked to /etc/X11/xinit/xinput.d/default.
+x-session-manager[8311]: WARNING: Unable to find provider 'gnome-wm' of required component 'windowmanager'
+Checking for Xgl: not present. 
+Detected PCI ID for VGA: 
+Checking for texture_from_pixmap: not present. 
+Trying again with indirect rendering:
+Checking for texture_from_pixmap: present. 
+Checking for non power of two support: present. 
+Checking for Composite extension: present. 
+Comparing resolution (1280x800) to maximum 3D texture size (2048): Passed.
+Checking for Software Rasterizer: Not present. 
+Checking for nVidia: not present. 
+Checking for FBConfig: present. 
+Checking for Xgl: not present. 
+/usr/bin/compiz.real (video) - Warn: No 8 bit GLX pixmap format, disabling YV12 image format
+Starting gtk-window-decorator
+x-session-manager[8311]: WARNING: Application 'gnome-wm.desktop' failed to register before timeout
+Initializing nautilus-share extension
+seahorse nautilus module initialized
+
+(gnome-panel:8536): Gtk-WARNING **: gtk_widget_size_allocate(): attempt to allocate widget with width -5 and height 24
+Nautilus-Share-Message: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error No such file or directory
+Please ask your system administrator to enable user sharing.
+
+
+** (nautilus:8538): WARNING **: Unable to add monitor: Not supported
+x-session-manager[8311]: WARNING: Application 'libcanberra-login-sound.desktop' failed to register before timeout
+
+
+Tracker version 0.6.6 Copyright (c) 2005-2007 by Jamie McCracken (jamiemcc@gnome.org)
+
+This program is free software and comes without any warranty.
+It is licensed under version 2 or later of the General Public License which can be viewed at http://www.gnu.org/licenses/gpl.txt
+
+Initialising tracker...
+starting HAL detection for ac adaptors...found /org/freedesktop/Hal/devices/computer_power_supply_ac_adapter_ADP0
+Failure: Module initalization failed
+
+** (nm-applet:8590): WARNING **: No connections defined
+Throttle level is 5
+evolution-alarm-notify-Message: Setting timeout for 19383 1254441600 1254422217
+evolution-alarm-notify-Message:  Thu Oct  1 21:00:00 2009
+
+evolution-alarm-notify-Message:  Thu Oct  1 15:36:57 2009
+
+
+(gnome-terminal:8905): Vte-WARNING **: No handler for control sequence `device-control-string' defined.
+
+(gnome-panel:8536): GLib-GIO-WARNING **: Missing callback called fullpath = /home/r9/.config/menus/settings.menu
+
+
+(gnome-panel:8536): GLib-GIO-WARNING **: Missing callback called fullpath = /home/r9/.config/menus/applications.menu
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="agiletickets"
+		module="agiletickets"
+		revision="working@caelum57-02"
+		conf="test"
+		confs="default, test, jetty, provided"
+		date="20101206155754"/>
+	<dependencies>
+		<module organisation="org.mockito" name="mockito-all">
+			<revision name="1.8.5" status="release" pubdate="20100525153104" resolver="public" artresolver="main" homepage="http://www.mockito.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="2">
+				<license name="The MIT License" url="http://code.google.com/p/mockito/wiki/License"/>
+				<metadata-artifact status="successful" details="" size="858" time="943" location="/home/caelum/.ivy2/cache/org.mockito/mockito-all/ivy-1.8.5.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/org.mockito/mockito-all/ivy-1.8.5.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.pom"/>
+				<caller organisation="agiletickets" name="agiletickets" conf="test" rev="1.8.5" rev-constraint-default="1.8.5" rev-constraint-dynamic="1.8.5" callerrev="working@caelum57-02"/>
+				<artifacts>
+					<artifact name="mockito-all" type="jar" ext="jar" status="successful" details="" size="1419869" time="25149" location="/home/caelum/.ivy2/cache/org.mockito/mockito-all/jars/mockito-all-1.8.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.8.2" status="release" pubdate="20101005055127" resolver="public" artresolver="main" homepage="http://junit.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, master" position="1">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1482" time="2391" location="/home/caelum/.ivy2/cache/junit/junit/ivy-4.8.2.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/junit/junit/ivy-4.8.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.pom"/>
+				<caller organisation="agiletickets" name="agiletickets" conf="test" rev="4.8.2" rev-constraint-default="4.8.2" rev-constraint-dynamic="4.8.2" callerrev="working@caelum57-02"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="successful" details="" size="237344" time="27690" location="/home/caelum/.ivy2/cache/junit/junit/jars/junit-4.8.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="5.1.13" status="release" pubdate="20100623123838" resolver="public" artresolver="main" homepage="http://dev.mysql.com/usingmysql/java/" downloaded="true" searched="true" default="false" conf="system, default, optional, compile, provided, runtime, javadoc, sources, master" position="0">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/gpl.txt"/>
+				<metadata-artifact status="successful" details="" size="1263" time="1225" location="/home/caelum/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.13.xml" searched="true" original-local-location="/home/caelum/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.13.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.13/mysql-connector-java-5.1.13.pom"/>
+				<caller organisation="agiletickets" name="agiletickets" conf="test" rev="5.1.13" rev-constraint-default="5.1.13" rev-constraint-dynamic="5.1.13" callerrev="working@caelum57-02"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="successful" details="" size="767492" time="24239" location="/home/caelum/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.13.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.13/mysql-connector-java-5.1.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=System Settings
+Icon=preferences-system
+Exec=unity-control-center --overview
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;System;
+Keywords=Preferences;Settings;
+X-Ubuntu-Gettext-Domain=unity-control-center

@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Avaliação Online Caelum
+Comment=Preencha sua avaliação online
+GenericName=Avaliação Online Caelum
+Exec=firefox https://sistema.caelum.com.br/avaliacao/a6f1920
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=iconcaelum.png
+Categories=GNOME;GTK;Network;WebBrowser;
+StartupWMClass=Firefox
+StartupNotify=true
+X-Ayatana-Desktop-Shortcuts=NewWindow;

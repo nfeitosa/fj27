@@ -1,0 +1,6 @@
+app-global	{972ce4c6-7e08-4474-a285-3208198ce6fd}	rel%{972ce4c6-7e08-4474-a285-3208198ce6fd}	1293460358	
+app-global	langpack-en-GB@firefox-3.6.ubuntu.com	rel%langpack-en-GB@firefox-3.6.ubuntu.com	1293460254	
+app-profile	firebug@software.joehewitt.com	rel%firebug@software.joehewitt.com	1293559612	
+app-profile	yslow@yahoo-inc.com	rel%yslow@yahoo-inc.com	1293559612	
+app-profile	{c45c406e-ab73-11d8-be73-000a95be3b12}	rel%{c45c406e-ab73-11d8-be73-000a95be3b12}	1293559612	
+app-system-share	ubufox@ubuntu.com	rel%ubufox@ubuntu.com	1293460451	
